@@ -1,0 +1,551 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	color: white;
+	/*border: 1px solid black;*/
+}
+
+html, body {
+	height: 100%;
+	width: 100%;
+	background-color: #363545;
+}
+nav .side-image {
+	min-height: 30px;
+	min-width: 30px;
+}
+.primary-dark-color{
+	color: #363545;
+}
+
+.primary-dark-bg {
+	background-color: #363545;	
+}
+
+.white-color {
+	color: white;
+}
+
+.white-bg {
+	background-color: white;
+}
+.page {
+	height: 100%;
+}
+
+.side-bar{
+	padding: 0;
+	height: 100%;
+	position: fixed;
+}
+.me {
+/*	min-height: 40%;
+	min-width: 100%;*/
+}
+.side-image {
+	background-image: url(../images/me.jpg);
+	text-align: center;
+	min-height: 280px;
+	min-width: 100%;
+	position: relative;
+	background-size: cover
+}
+.side-image > p {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	margin-bottom: 0;
+	background-color: rgba(0,0,0,.6);
+}
+
+.side-hireme {
+	display: block;
+	width: 50%;
+	padding: 8px;
+	margin-top: 8px;
+	margin-bottom: 5px;
+	margin-left: auto;
+	margin-right: auto;
+	color: black;
+}
+
+.skills {
+	width: 90%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h6 {
+	text-align: center;
+	margin-top: 20px;
+}
+.skill-meter {
+	margin-left: auto;
+	margin-right: auto;
+}
+.skill-meter > .col-4 {
+	margin-bottom: 8px;
+}
+
+.skill-meter .html {
+	width: 80%;
+}
+
+.skill-meter .css {
+	width: 70%;
+}
+
+.skill-meter .js {
+	width: 70%;
+}
+
+.skill-meter .php {
+	width: 75%;
+}
+
+.skill-meter .lrvl {
+	width: 40%;
+}
+
+.skill-meter .bootstrap {
+	width: 75%;
+}
+
+.btn {
+	display: block;
+	width: 100%
+}
+.navs {
+	margin-top: 15px;
+}
+.navs > a >  li {
+	text-align: center;
+	padding: 10px 0;
+	margin: 0 0;
+	border-top: 1px solid white;
+}
+
+.navs > a > .resume {
+	border-bottom: 1px solid white;
+}
+.footer {
+	width: 100%;
+	height: 80px;
+	position: relative;
+	bottom: 5px;
+}
+.footer p {
+	text-align: center;
+}
+
+p > i {
+	margin-right: 10px;
+	font-size: 2em;
+}
+
+.page-content {
+	height: 100%;
+	margin-left:25%;
+	padding: 0;
+	/*position: static;*/
+	overflow: hidden;
+}
+
+.top-slanted {
+	max-height: 45%;
+	width: 100%;
+	position: relative;
+	text-align: center;
+	z-index: 100;
+	/*color: black;*/
+}
+
+.top-slanted:after {
+    content: "";
+    width: 100%;
+    height: 150px;
+    transform: skewy(4deg);
+    position: absolute;
+    right: 0;
+    bottom: -55px;
+    z-index: -50;
+    background-color: #363545;
+    border-bottom: 20px solid rgba(30, 240, 230, .5);
+
+}
+
+.top-slanted > img{
+	margin-top: 35px;
+}
+
+.top-slanted > h1 {
+	margin-top: 20px;
+}
+
+.top-slanted > h3 {
+	margin-top: 30px;
+	font-size: 2em;
+}
+
+.bottom-content {
+	/*position: relative;*/
+	/*height: 50%;*/
+}
+.wd{
+}
+.ad, .te {
+	color: grey;
+}
+.wd:hover {
+	color: yellow;
+}
+.ad:hover {
+	color: green;
+}
+.te:hover {
+	color: blue;
+}
+
+.bottom-content > .display-4 {
+	max-height: 20%;
+	margin-top: 50px;
+	color: white;
+	padding: 50px;
+	font-size: 2.5em;
+}
+
+.page-content > .row > .img > img {
+	width: 100%;
+}
+
+
+.quote {
+	text-align: center;
+}
+
+.row > .quote > p {
+	padding: 8px;
+}
+
+.row > .quote > .display-3 {
+	font-size: 1.5em;
+}
+
+.row > .quote > button {
+	width: 30%;
+	padding: 10px;
+	color: black;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+
+.page-content > .row {
+	padding: 0 10px;
+	margin: 0 ;
+	height: 100%;
+}
+
+.row-content {
+	padding: 0;
+	margin: 0;
+	height: 10%;
+}
+
+.title {
+	text-align: center;
+}
+
+#section-1{
+	height: 150px;
+}
+#section-2 {
+	height: 25%;
+	padding: 20px;
+	background-color: grey;
+	margin-bottom: 50px;
+}
+
+#section-2 .card-port {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 66%;
+    background-color: #363545;
+    /*height: 100%;*/
+	margin-right: 30px;
+	counter-increment: card-port;
+}
+
+.flickity-page-dots {
+	bottom: 0;
+	color: white;
+	padding: 0;
+	margin: 0;
+	position: absolute;
+	left: 0;
+}
+
+.card-port > img {
+	width: 30%;
+	/*float: left;*/
+}
+#section-2 .container {
+    padding: 10px 16px;
+    width: 65%;
+
+    float: right;
+}
+
+.clear:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+#section-3 {
+    height: 434px;
+    overflow: hidden;
+}
+
+#section-3 .android-app{
+	width: 200%;
+    position: relative;
+    left: -50%;
+    top: -12%;
+}
+
+#section-3 .col-lg-4 > p {
+}
+
+.flickity-viewport {
+}
+
+.resume h3{
+	font-size: 2em;
+	margin-top: 20px;
+}
+
+pre {
+	color: white;
+}
+.experience {
+	display: block;
+	position: static;
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.experience .display-4{
+	text-align: center;
+}
+
+/* The actual timeline (the vertical ruler) */
+.experience .timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* The actual timeline (the vertical ruler) */
+.experience .timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  margin-left: -3px;
+}
+
+/* Container around content */
+.timeline > .container-time {
+  padding: 10px 40px;
+  position: relative;
+  background-color: inherit;
+  width: 50%;
+}
+
+/* The circles on the timeline */
+.timeline > .container-time::after {
+  content: '';
+  position: absolute;
+  width: 25px;
+  height: 25px;
+  right: -17px;
+  background-color: white;
+  border: 4px solid #FF9F55;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+
+/* Place the container to the left */
+.timeline > .left {
+  left: -4px;
+}
+
+/* Place the container to the right */
+.timeline > .right {
+  left: 50.5%;
+}
+
+/* Add arrows to the left container (pointing right) */
+.timeline > .left::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  right: 30px;
+  border: medium solid white;
+  border-width: 10px 0 10px 10px;
+  border-color: transparent transparent transparent white;
+}
+
+/* Add arrows to the right container (pointing left) */
+.timeline > .right::before {
+  content: " ";
+  height: 0;
+  position: absolute;
+  top: 22px;
+  width: 0;
+  z-index: 1;
+  left: 30px;
+  border: medium solid white;
+  border-width: 10px 10px 10px 0;
+  border-color: transparent white transparent transparent;
+}
+
+/* Fix the circle for containers on the right side */
+.timeline > .right::after {
+  left: -16px;
+}
+
+/* The actual content */
+.experience .content {
+  padding: 20px 30px;
+  background-color: white;
+  position: relative;
+  border-radius: 6px;
+}
+
+.timeline .content, .content p, .content em {
+color: grey;
+font-size: 1em;
+}
+
+.timeline h3 {
+	font-size: 1.5em;
+}
+
+
+/*links and navigation*/
+li:hover{
+	background-color: rgba(255,255,255, 0.5);
+}
+
+@media only screen and (max-width: 960px) and (min-width: 721px){
+
+	.navs > li {
+		text-align: center;
+		padding: 20px 0;
+		margin: 0 0;
+		border-top: 1px solid grey;
+	}
+
+	.footer {
+		height: 70px;
+	}
+
+	.page-content {
+		margin-left: 33%;
+	}
+
+
+}
+
+@media only screen and (max-width: 720px){
+
+	.page-content {
+		margin-left: 0;
+	}
+	#section-1{
+		height: 100px;
+	}
+	.flickity-viewport {
+		height: 350px;
+	}
+	.card-port {
+		height: 350px;
+	}
+
+	.card-port > img , .card-port > .container {
+		width: 100%;
+	}
+
+	#section-2 {
+		height: 400px;
+	}
+
+	/* Place the timelime to the left */
+	  .experience .timeline::after {
+	    left: 31px!important;
+	  }
+
+	/* Full-width containers */
+	  .container-time {
+	    width: 100%!important;
+	    padding-left: 70px;
+	    padding-right: 25px;
+	  }
+
+	/* Make sure that all arrows are pointing leftwards */
+	  .container-time::before {
+	    left: 60px!important;
+	    border: medium solid white;
+	    border-width: 10px 10px 10px 0;
+	    border-color: transparent white transparent transparent;
+	  }
+
+	/* Make sure all circles are at the same spot */
+	  .left::after, .right::after {
+	    left: 15px!important;
+	  }
+
+	/* Make all right containers behave like the left ones */
+	  .right,.left {
+	    left: 1%!important;
+	  }
+
+	  .bottom-content > .display-4 {
+	  	padding: 5px!important;
+	  }
+}
+
+@media only screen and (min-width: 719px) and (max-width: 960px){
+	
+	nav {
+		position: absolute;
+		z-index: -1000000;
+	}
+}
+
+@media only screen and (min-width: 961px){	
+	nav {
+		position: absolute!important;
+		z-index: -1000000;
+	}
+
+	.side-image {
+		height: 360px;		
+	}
+	.footer {
+		height: 60px;
+	}
+
+}
