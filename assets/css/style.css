@@ -53,22 +53,28 @@ nav .side-image {
 	position: relative;
 	background-size: cover
 }
-.side-image > p {
+.side-image p {
 	width: 100%;
 	position: absolute;
-	bottom: 0;
+	bottom: 55px;
 	margin-bottom: 0;
 	background-color: rgba(0,0,0,.6);
 }
 
 .side-hireme {
 	display: block;
-	width: 50%;
-	padding: 8px;
-	margin-top: 8px;
 	margin-bottom: 5px;
 	margin-left: auto;
 	margin-right: auto;
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 50px;
+}
+
+.side-hireme button{
+	width: 100%;
+	height: 100%;
 	color: black;
 }
 
