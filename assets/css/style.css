@@ -156,11 +156,17 @@ p > i {
 	font-size: 2em;
 }
 
+.about-me{}
+
 .page-content {
-	height: 100vh;
+	height: 150vh;
 	margin-left:25%;
 	padding: 0;
 	overflow-y: scroll;
+}
+
+.scroll-overflowy{
+
 }
 
 .top-slanted {
@@ -256,7 +262,13 @@ p > i {
 .page-content > .row {
 	padding: 0 10px;
 	margin: 0 ;
-	height: 100%;
+	/*height: 100%;*/
+}
+
+.skills{
+	background-color: white;
+	color: black;
+	width: 100%;
 }
 
 .row-content {
