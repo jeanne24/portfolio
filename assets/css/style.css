@@ -113,7 +113,7 @@ h6 {
 }
 
 .skill-meter .lrvl {
-	width: 40%;
+	width: 70%;
 }
 
 .skill-meter .bootstrap {
@@ -319,6 +319,7 @@ p > i {
     height: 434px;
     overflow: hidden;
     color: black;
+    overflow: hidden;
 }
 
 #section-3 .android-app{
@@ -357,14 +358,6 @@ pre {
 	color: black!important;
 	color:;
 }
-
-.portfolio:after{
-	content: "";
-	height: 100%;
-	width: 100%;
-	background-color: rgba(104, 70, 199, .5);
-}
-
 .experience .display-4{
 	text-align: center;
 }
