@@ -2,7 +2,7 @@
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
-	color: white;
+	/*color: white;*/
 	/*border: 1px solid black;*/
 }
 
@@ -33,17 +33,25 @@ nav .side-image {
 .page {
 	height: 100%;
 }
-
+.card{
+	margin-top: 16px;
+	padding-top: 16px;
+}
 .side-bar{
 	padding: 0;
 	height: 100%;
 	position: absolute;
 	top: 0;
 	left: 0;
+	color: white;
 }
 .me {
 /*	min-height: 40%;
 	min-width: 100%;*/
+}
+
+.home-page{
+	color: white;
 }
 .side-image {
 	background-image: url(../images/me.jpg);
@@ -128,6 +136,10 @@ h6 {
 
 .navs > a > .resume {
 	border-bottom: 1px solid white;
+}
+
+.resume{
+	color: white;
 }
 .footer {
 	width: 100%;
@@ -307,6 +319,7 @@ p > i {
 #section-3 {
     height: 434px;
     overflow: hidden;
+    color: black;
 }
 
 #section-3 .android-app{
@@ -336,6 +349,21 @@ pre {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+}
+
+.portfolio{
+	background-image: url('../images/pexels-photo-908284.jpeg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	color: black!important;
+	color:;
+}
+
+.portfolio:after{
+	content: "";
+	height: 100%;
+	width: 100%;
+	background-color: rgba(104, 70, 199, .5);
 }
 
 .experience .display-4{
